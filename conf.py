@@ -160,13 +160,16 @@ intersphinx_mapping = {'pyqgis_api': ('https://qgis.org/pyqgis/{}/'.format(pyqgi
 
 api_version = version if version != 'testing' else ''
 source_version = ''.join(['release-', version]).replace('.', '_') if version != 'testing' else 'master'
+dataset_version = ''.join(['release_', version]) if version != 'testing' else 'master'
 
 extlinks = {# api website: docs master branch points to '/' while x.y points to x.y
             'api': ('https://qgis.org/api/{}%s'.format(''.join([version, '/']) if version != 'testing' else ''), None),
             # pyqgis website: docs master branch points to 'master' and x.y points to x.y
             'pyqgis': ('https://qgis.org/pyqgis/{}/%s'.format(pyqgis_version), None),
             # code on github: docs master branch points to 'master' while x.y points to release-x_y
-            'source': ('https://github.com/qgis/QGIS/blob/{}/%s'.format(source_version), None)
+            'source': ('https://github.com/qgis/QGIS/blob/{}/%s'.format(source_version), None),
+            # sample dataset archive on GitHub: docs master branch points to 'master.zip' while x.y points to release_x.y.zip
+            'sampledataset': ('https://github.com/qgis/QGIS-Sample-Data/archive/{}.zip%s'.format(dataset_version), None)
            }
 
 context = {
