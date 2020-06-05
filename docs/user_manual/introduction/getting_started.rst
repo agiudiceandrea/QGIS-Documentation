@@ -77,14 +77,14 @@ to install the sample dataset during the initial QGIS installation,
 you may do one of the following:
 
 * Use GIS data that you already have
-* Download sample data from
-  https://qgis.org/downloads/data/qgis_sample_data.zip
+* Download sample data from :sampledataset:`here <>` and unzip the archive
+  on any convenient location on your system.
 * Uninstall QGIS and reinstall with the data download option checked (only
   recommended if the above solutions are unsuccessful)
 
 |nix| |osx| For GNU/Linux and macOS, there are no dataset installation
 packages available as rpm, deb or dmg. To use the sample dataset, download it
-from https://github.com/qgis/QGIS-Sample-Data/archive/master.zip and unzip the archive
+from :sampledataset:`here <>` and unzip the archive
 on any convenient location on your system.
 
 The Alaska dataset includes all GIS data that are used for the examples and
