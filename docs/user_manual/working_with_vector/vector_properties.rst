@@ -88,7 +88,7 @@ Provided information are:
   :ref:`form properties <vector_attributes_menu>`...
   More custom properties can be created and managed using PyQGIS,
   specifically through the :pyqgis:`setCustomProperty() <qgis.core.QgsMapLayer.setCustomProperty>` method.
-* based on the provider of the layer: format of storage, geometry type,
+* based on the provider of the layer: format of storage, geometry type, geometry column name,
   data source encoding, extent, feature count...
 * the Coordinate Reference System: name, units, method, accuracy, reference
   (i.e. whether it's static or dynamic)
