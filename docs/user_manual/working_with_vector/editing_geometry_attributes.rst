@@ -175,7 +175,7 @@ each other.
 .. tip:: **Enable snapping by default**
 
    You can set snapping to be enabled by default on all new projects in the
-   :menuselection:`Settings --> Options --> Digitizing` tab.
+   :menuselection:`Settings --> Options --> Map Tools --> Digitizing` tab.
    You can also set the default snapping mode, tolerance value, and units,
    which will populate the :guilabel:`Snapping Options` dialog.
 
